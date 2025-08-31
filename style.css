@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+#score, #timer {
+  position: absolute;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  z-index: 10;
+}
+
+#score { top: 10px; left: 10px; }
+#timer { top: 10px; right: 10px; }
